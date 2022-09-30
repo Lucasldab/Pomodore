@@ -1,5 +1,3 @@
-from datetime import datetime
-from re import M
 import time
 import datetime as dt
 
@@ -15,7 +13,7 @@ def count_down(h, m, s):
 
         total_seconds -=1
 
-    print("contagem finalizada!")
+    print("Countdown finished!")
 
 h = input("Enter the time in hours: ")
 m = input("Enter the time in minutes: ")
